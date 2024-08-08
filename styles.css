@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f7fff7;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+html,
+body {
+  height: 100%; /* para página usar 100% da tela*/
+}
+footer,
+header {
+  background-color: #ffb552;
+}
+
+footer {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.conteudo {
+  flex: 1 0 auto;
+}
+
+nav {
+  background-color: #ffb552;
+  text-align: center;
+}
+
+.fundo {
+  margin-top: 5rem;
+  background-color: #ccccccc4;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.fundo-2 {
+  margin-top: 5rem;
+  background-color: #0000001c;
+  border-radius: 20px;
+  padding: 3rem;
+  color: black;
+}
+
+.fundo h1 {
+  color: #004d97;
+}
+
+.logo {
+  width: 70%;
+}
+
+.nav-link {
+  color: #004d97;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #004d97;
+  font-weight: 500;
+}
+
+h1 {
+  color: #ffb552;
+  margin-top: 60px;
+  line-height: 40px;
+}
+
+.botao-encontrar {
+  background-color: #fa9f27;
+  border-radius: 10px;
+  font-weight: 500;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+  border: none;
+  font-size: 18px;
+}
+
+.botao-encontrar:hover {
+  background-color: #f9af4e;
+}
+
+.botao-ser {
+  background-color: #004d97;
+  border-radius: 10px;
+  font-weight: 500;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 40px;
+  border: none;
+  font-size: 18px;
+}
+
+.botao-ser:hover {
+  background-color: #006bd0;
+}
+
+.paragrafo {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: black;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.btn-ser-cuidador {
+  background-color: #ffb552;
+  border-radius: 10px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  margin-top: 40px;
+  margin-left: 150px;
+  border: none;
+  font-size: 18px;
+}
+
+/* Seção 2 */
+.secao-2 {
+  background: linear-gradient(to left, #1f6cb4d2, #004d97);
+}
+
+/* Estilização seção 3 */
+#secao-3 {
+  display: flex;
+  padding: 64px 80px;
+  align-items: start;
+  gap: 64px;
+}
+.cuidador {
+  position: relative;
+}
+.cuidador h3 {
+  border: 2px solid #ffb552;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.cuidador img {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.cuidador p {
+  border-right: 1px solid #ffb552;
+  border-left: 1px solid #ffb552;
+  border-bottom: 1px solid #ffb552;
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  padding: 0 24px;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.cuidador.ativa p {
+  height: fit-content;
+  opacity: 1;
+  padding: 24px;
+}
+.caoegato {
+  margin-left: 30px;
+}
+/* Final da estilização seção 3 */
+
+/* Página Cuidador */
+
+.bg-ajuda {
+  background-color: #d4b3e4;
+}
+
+.bg-card {
+  background-color: #ffb552;
+}
+
+.bg-carrosel {
+  background-color: #004d97;
+}
+
+.bg-carro {
+  background-color: #d4b3e4da;
+}
+
+.btn-carrosel {
+  background-color: #d4b3e4;
+  border-radius: 10px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  padding: 20px;
+  margin-top: 40px;
+  border: none;
+  font-size: 18px;
+  text-decoration: none;
+}
